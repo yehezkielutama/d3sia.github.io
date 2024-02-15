@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D3 Sistem Informasi Akuntansi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Mochiy+Pop+P+One&family=Poppins:wght@200;300;400;600;700&family=Roboto:wght@100&family=Sora:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/uksw.png" /></a>
+        <li></li>
+        <a href="index.html"><img src="images/fti.png" /></a>
+        <a href="index.html"><img src="images/ka.png" /></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Event</a></li>
+            <li><a href="blog.html">Alumni</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Kegiatan</h1>
+    </section>
+
+   <!-- ----blog page content------ -->
+
+   <section class="blog-content">
+    <div class="row">
+      <div class="blog-left">
+        <img src="images/aissemi.jpg" />
+        <h2>AISSEMI 2023</h2>
+        <p>
+          [OPEN REGISTRATION ACCOUNTING INFORMATION SYSTEM SEMINAR 2023]
+        </p>
+        <br />
+        <p>
+          Halo Sobat Creative Minority Darah Biru FTI!!!
+<br />
+Kami dari HMP D3 SIA menghadirkan kegiatan seminar yang sangat menarik dengan tema Technopreneurship.
+        </p>
+        <br />
+        <p>
+          Eitss jangan salah ya, seminar kali ini memiliki 2 sesi pembahasan yang sangat menarik dari 2 pembicara. Pastinya akan menambah wawasan dan pengetahuan baru dari materi yang akan dibawakan oleh pembicara seminar kali ini. Sesi I membahas tentang technopreneurship yang akan dibawakan oleh pemateri dari Educa Studio dan Sesi II membahas tentang sikap apa saja yang harus dimiliki mahasiswa saat berada di bidang technopreneurship. Nah kegiatan seminar ini akan dilaksanakan pada :
+        </p>
+        <br />
+        <p>
+          <li>🗓 : Senin, 5 Juni 2023</li>
+         <li>⏰ : 10.30 - 14.00 WIB</li>
+          <li>📍 : Universitas Kristen Satya Wacana</li>
+        </p>
+        <p>
+          Kabar baik untuk teman-teman semuanya bahwa seminar ini diperuntukkan untuk seluruh mahasiswa dan gratis tanpa biaya apapun, tetapi pendaftaran peserta terbatas. Tunggu apalagi, daftar sesegera mungkin dengan link dibawah ini!!!
+https://bit.ly/PendaftaranPesertaAISSEMI2023
+        </p>
+        <p><bold>Benefit :</bold>
+          <li>
+- Ilmu yang bermanfaat</li>
+<li>- E-Certificate</li>
+<li>- Doorprize</li>
+<li>- Free registration</li>
+<li>- Minum & makan siang</li>
+<br>
+Contact Person :
+<p>0815 7589 0938 (Anggita)</p>
+        <p>0895 3685 45511 (Adinda)</p>
+<br>
+Jangan sampai ketinggalan, kami tunggu kehadiran teman teman semuanya!!! 🤩
+#D3SIA #FTIUKSW #HMPD3SIA #UKSW #UKSWSALATIGA #SEMINAR
+          
+        </p>
+
+        <!-- <div class="comment-box">
+        <h3>Leave a comment</h3>
+        <form class="comment-form">
+          <input type="text" placeholder="Enter name">
+          <input type="email" placeholder="Enter email">
+          <textarea rows="10" placeholder="Your Comment">
+          </textarea>
+          <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+        </form>
+        </div>
+      </div>
+      <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div>
+          <span>Buisness Analytics</span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>Data Science</span>
+          <span>39</span>
+        </div>
+        <div>
+          <span>Machine Learning</span>
+          <span>19</span>
+        </div>
+        <div>
+          <span>Computer Science</span>
+          <span>48</span>
+        </div>
+        <div>
+          <span>AutoCad</span>
+          <span>32</span>
+        </div>
+        <div>
+          <span>Journalism</span>
+          <span>26</span>
+        </div>
+        <div>
+          <span>Commerce</span>
+          <span>35</span>
+        </div>
+      </div>
+    </div>
+  </section> -->
+   
+    <!-- --------footer -------- -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        D3 Sistem Informasi Akuntansi
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-envelope-o"></i>
+      </div>
+    </section>
+
+    <!-- -----Javascript for toggle menu------- -->
+    <script>
+      let navlinks = document.getElementById("navlinks");
+
+      function showMenu() {
+        navlinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navlinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
